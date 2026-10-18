@@ -1,21 +1,16 @@
 # Maple Harbor: Monorepo · Cloudflare (protected)
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A monorepo with three apps on **Cloudflare**, with preview links **behind Cloudflare Access**. Static Vite +
 TypeScript, no framework. The page reads a live list from the shared Supabase test project.
 Row in the support matrix: impeccable-reviews#302.
 
 ## Deployment links
 
-Filled in at prep time.
-
 | App | Folder | Production | Preview gate |
 |---|---|---|---|
-| _app one_ | `apps/<app>` | _not deployed_ | yes |
-| _app two_ | `apps/<app>` | _not deployed_ | yes |
-| _app three_ | `apps/<app>` | _not deployed_ | yes |
+| kelp-lz7 | `apps/kelp-lz7` | https://maple-harbor-4dkv-kelp-lz7.pages.dev | yes: Cloudflare Access on `*.maple-harbor-4dkv-kelp-lz7.pages.dev` |
+| dune-86h | `apps/dune-86h` | https://maple-harbor-4dkv-dune-86h.pages.dev | yes: Cloudflare Access on `*.maple-harbor-4dkv-dune-86h.pages.dev` |
+| moss-6o5 | `apps/moss-6o5` | https://maple-harbor-4dkv-moss-6o5.pages.dev | yes: Cloudflare Access on `*.maple-harbor-4dkv-moss-6o5.pages.dev` |
 
 ## Names
 
